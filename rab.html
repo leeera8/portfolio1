@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		
+	</style>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="materialize/css/materialize.min.css" rel="stylesheet">
+	<link type="text/css" href="style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+		body{
+			background-image: url(img/4.jpg);
+			background-size: cover;
+		}
+		.n{
+			text-align: center;
+			color:white;
+		}
+	</style>
+</head>
+
+<body>
+    <h2 class="n">Мои работы</h2>
+	<ul id="slide-out" class="side-nav">
+		<li>
+			<div class="user-view">
+				<div class="background">
+					<img src="img/4.jpg">
+				</div>
+				<a href="#!user"><img class="circle" src="img/h.jpg"></a>
+				<a href="#!name"><span class="grey-text name">Ефимова Валерия</span></a>
+				<a href="#!email"><span class="grey-text email">evaleri8@mail.ru</span></a>
+			</div>
+		</li>
+		<li><a href="index.html" class="waves-effect"><i class="material-icons">grade</i>Главная</a></li>
+		<li><a href="bio.html" class="waves-effect"><i class="material-icons">person</i>О себе</a></li>		
+		<li><a href="rab.html" class="waves-effect"><i class="material-icons">computer</i>Мои работы</a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+
+	</ul>
+	 <div class="row g container">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/2017-12-19-155951_1366x768_scrot.png">
+          <span class="card-title">Викторина</span>
+        </div>
+        <div class="card-content">
+          <p>Моей первой работой является викторина, сделанная на Phaser.js. Обычная викторина с вопросами типа формула чего-то.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image video-container">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/k5cXLD4tc-8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <span class="card-title">Игра на Юнити</span>
+        </div>
+        <div class="card-content">
+          <p>Первая игра на unity. </p>
+          <p>Эта игра была моей самой сложной работой, но делать ее было интересно. Игрок должен выживать в больнице а зомби всё появляются. На самом деле сложнейшей задачей было оформление. Я не знала куда могла бы поставить койку, стол и так далее. Также было сложно делать переходы зомби от обычной ходьбы в смерть, остальное было волне понятным. <a href="https://github.com/leeera/unity.git" target="_blank">ссылка на код</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/101.png" alt="">
+          <img src="img/111.png" alt="">
+          <span class="card-title">Laravel. Блог</span>
+        </div>
+        <div class="card-content">
+          <p>Блог делать было не сложно и не слишком легко. Интересно было делать комментарии к посту. Малая сложность была с запросами.
+          <a href="https://github.com/leeera/laravel1.git" target="_blank">ссылка на код</a>
+           </p>
+        </div>
+      </div>
+    </div>
+     <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/01.png" alt="">
+          <img src="img/02.png" alt="">
+          <span class="card-title" style="color:currentColor">Laravel. Бюро находок</span>
+        </div>
+        <div class="card-content ">
+          <p>А вот делать бюро было самым интересным. Надо было разделять на категории потеряно и найдено. Также интересно было делать моментальный поиск. Я вспомнила JavaScript который забыла пока мы проходили unity, php, laravel.
+          <a href="https://github.com/leeera/laravel1.git" target="_blank">ссылка на код</a>
+           </p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/0001.png" alt="">
+          <span class="card-title" style="color:currentColor">Laravel. Харысхал</span>
+        </div>
+        <div class="card-content ">
+          <p>Не успела доделать из-за экзаменов.
+          <a href="https://github.com/leeera8/laravel2.git" target="_blank">ссылка на код</a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <footer class="page-footer deep-purple accent-1">
+          <div class="container deep-purple accent-1">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">контактные данные</h5>
+                <p class="grey-text text-lighten-4">89143056314</p>
+                <p class="grey-text text-lighten-4">evaleri8@mail.ru</p>
+              </div>
+            </div>
+          </div>
+        </footer>         
+	<a href="#" data-activates="slide-out" class="button-collapse pos"><i class="medium material-icons">menu</i></a>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.slider').slider();
+		});
+
+	</script>
+</body>
+
+</html>
